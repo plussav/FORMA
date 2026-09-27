@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FORMA — Архитектурное бюро</title>
+
+    <meta
+        name="description"
+        content="FORMA — современное архитектурное бюро. Архитектура, интерьеры, общественные и коммерческие пространства."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ========================================= -->
+<!-- HEADER -->
+<!-- ========================================= -->
+
+<header class="header">
+
+    <div class="container header-inner">
+
+        <a href="#home" class="logo">
+            <span>FORMA</span>
+            <small>ARCHITECTURE</small>
+        </a>
+
+        <nav class="nav">
+
+            <a href="#home">Главная</a>
+            <a href="#projects">Проекты</a>
+            <a href="#about">О бюро</a>
+            <a href="#services">Услуги</a>
+            <a href="#team">Команда</a>
+            <a href="#contacts">Контакты</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button
+                class="theme-button"
+                id="themeButton"
+                type="button"
+                aria-label="Изменить тему"
+            >
+                ☾
+            </button>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Открыть меню"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ========================================= -->
+<!-- HERO -->
+<!-- ========================================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2200&q=90"
+            alt="Современная архитектура"
+        >
+
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+
+        <div class="hero-small">
+            АРХИТЕКТУРНОЕ БЮРО · ASTANA / ALMATY
+        </div>
+
+        <h1>
+            Пространства,<br>
+            которые <i>остаются.</i>
+        </h1>
+
+        <p>
+            Создаём архитектуру, которая соединяет
+            человека, пространство и окружающую среду.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="button button-light">
+                Смотреть проекты
+            </a>
+
+            <a href="#contacts" class="button button-outline">
+                Обсудить проект
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom container">
+
+        <div class="hero-scroll">
+            SCROLL TO EXPLORE
+            <span>↓</span>
+        </div>
+
+        <div class="hero-stats">
+
+            <div class="stat">
+                <strong data-counter="87">0</strong>
+                <span>проектов</span>
+            </div>
+
+            <div class="stat">
+                <strong data-counter="14">0</strong>
+                <span>лет опыта</span>
+            </div>
+
+            <div class="stat">
+                <strong data-counter="9">0</strong>
+                <span>стран</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- INTRO -->
+<!-- ========================================= -->
+
+<section class="intro section">
+
+    <div class="container intro-grid">
+
+        <div class="section-number">
+            01
+        </div>
+
+        <div class="intro-content">
+
+            <div class="eyebrow">
+                ФИЛОСОФИЯ
+            </div>
+
+            <h2>
+                Мы не просто создаём
+                здания. Мы создаём
+                <em>сценарии жизни.</em>
+            </h2>
+
+            <p>
+                FORMA — независимое архитектурное бюро,
+                работающее на пересечении архитектуры,
+                дизайна и технологий.
+            </p>
+
+            <p>
+                Каждый проект начинается с изучения
+                контекста, человека и места.
+                Поэтому наши пространства выглядят
+                по-разному, но всегда остаются
+                функциональными и выразительными.
+            </p>
+
+            <a href="#about" class="text-link">
+                Подробнее о FORMA →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- PROJECTS -->
+<!-- ========================================= -->
+
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    ИЗБРАННЫЕ РАБОТЫ
+                </div>
+
+                <h2>
+                    Проекты
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+            <button
+                class="filter-button active"
+                data-filter="all"
+                type="button"
+            >
+                Все
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="residential"
+                type="button"
+            >
+                Жилые
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="commercial"
+                type="button"
+            >
+                Коммерческие
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="public"
+                type="button"
+            >
+                Общественные
+            </button>
+
+            <button
+                class="filter-button"
+                data-filter="interior"
+                type="button"
+            >
+                Интерьеры
+            </button>
+
+        </div>
+
+
+        <!-- PROJECT GRID -->
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article
+                class="project-card project-large"
+                data-category="residential"
+                data-project="aurora"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1400&q=85"
+                        alt="Villa Aurora"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>Villa Aurora</h3>
+                        <span>Алматы · 2024</span>
+                    </div>
+
+                    <span class="project-type">
+                        Residential
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article
+                class="project-card"
+                data-category="commercial"
+                data-project="line"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85"
+                        alt="LINE Office"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>LINE Office</h3>
+                        <span>Астана · 2023</span>
+                    </div>
+
+                    <span class="project-type">
+                        Commercial
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article
+                class="project-card"
+                data-category="public"
+                data-project="museum"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1200&q=85"
+                        alt="Forma Museum"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>Forma Museum</h3>
+                        <span>Ташкент · 2022</span>
+                    </div>
+
+                    <span class="project-type">
+                        Public
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+
+            <article
+                class="project-card"
+                data-category="interior"
+                data-project="mono"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+                        alt="Mono Apartment"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>Mono Apartment</h3>
+                        <span>Астана · 2024</span>
+                    </div>
+
+                    <span class="project-type">
+                        Interior
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 5 -->
+
+            <article
+                class="project-card project-large"
+                data-category="commercial"
+                data-project="north"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85"
+                        alt="North Tower"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>North Tower</h3>
+                        <span>Астана · 2021</span>
+                    </div>
+
+                    <span class="project-type">
+                        Commercial
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 6 -->
+
+            <article
+                class="project-card"
+                data-category="residential"
+                data-project="frame"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+                        alt="Frame House"
+                    >
+
+                    <div class="project-overlay">
+
+                        <button
+                            class="project-open"
+                            type="button"
+                        >
+                            Смотреть проект →
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>Frame House</h3>
+                        <span>Бурабай · 2023</span>
+                    </div>
+
+                    <span class="project-type">
+                        Residential
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- ABOUT -->
+<!-- ========================================= -->
+
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                03
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    О БЮРО
+                </div>
+
+                <h2>
+                    Архитектура<br>
+                    с характером.
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85"
+                    alt="Интерьер проекта FORMA"
+                >
+
+            </div>
+
+
+            <div class="about-content">
+
+                <h3>
+                    От идеи до последнего
+                    штриха.
+                </h3>
+
+                <p>
+                    Мы объединяем архитекторов,
+                    дизайнеров, инженеров и визуализаторов,
+                    чтобы создавать цельные проекты.
+                </p>
+
+                <p>
+                    Наша команда работает с жилой,
+                    коммерческой и общественной
+                    архитектурой.
+                </p>
+
+                <div class="about-numbers">
+
+                    <div>
+                        <strong>87</strong>
+                        <span>реализованных проектов</span>
+                    </div>
+
+                    <div>
+                        <strong>14</strong>
+                        <span>лет практики</span>
+                    </div>
+
+                    <div>
+                        <strong>23</strong>
+                        <span>специалиста</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- SERVICES -->
+<!-- ========================================= -->
+
+<section class="services section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                04
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    ЧТО МЫ ДЕЛАЕМ
+                </div>
+
+                <h2>
+                    Услуги
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    01
+                </span>
+
+                <h3>
+                    Архитектурное
+                    проектирование
+                </h3>
+
+                <p>
+                    Создание архитектурной концепции,
+                    планировок и рабочей документации.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    02
+                </span>
+
+                <h3>
+                    Дизайн
+                    интерьера
+                </h3>
+
+                <p>
+                    Интерьеры жилых, коммерческих
+                    и общественных пространств.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    03
+                </span>
+
+                <h3>
+                    3D-визуализация
+                </h3>
+
+                <p>
+                    Фотореалистичная визуализация
+                    будущего пространства.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    04
+                </span>
+
+                <h3>
+                    Генеральный
+                    план
+                </h3>
+
+                <p>
+                    Работа с территорией,
+                    ландшафтом и окружением.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    05
+                </span>
+
+                <h3>
+                    Реставрация
+                </h3>
+
+                <p>
+                    Бережное обновление исторических
+                    и существующих зданий.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <span class="service-number">
+                    06
+                </span>
+
+                <h3>
+                    Авторский
+                    надзор
+                </h3>
+
+                <p>
+                    Контроль соответствия строительства
+                    разработанному проекту.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- PROCESS -->
+<!-- ========================================= -->
+
+<section class="process section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                05
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    ПРОЦЕСС
+                </div>
+
+                <h2>
+                    Как мы работаем
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <div class="process-item">
+
+                <span>01</span>
+
+                <h3>
+                    Знакомство
+                </h3>
+
+                <p>
+                    Изучаем задачу, участок,
+                    бюджет и пожелания клиента.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <span>02</span>
+
+                <h3>
+                    Концепция
+                </h3>
+
+                <p>
+                    Формируем идею,
+                    архитектурный образ
+                    и основные сценарии.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <span>03</span>
+
+                <h3>
+                    Проектирование
+                </h3>
+
+                <p>
+                    Создаём чертежи,
+                    модели и визуализации.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <span>04</span>
+
+                <h3>
+                    Реализация
+                </h3>
+
+                <p>
+                    Сопровождаем проект
+                    до завершения строительства.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- QUOTE -->
+<!-- ========================================= -->
+
+<section class="quote-section">
+
+    <div class="container">
+
+        <div class="quote">
+
+            <span>
+                “
+            </span>
+
+            <p>
+                Хорошая архитектура —
+                это когда пространство
+                начинает работать на человека.
+            </p>
+
+            <small>
+                FORMA ARCHITECTURE
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- TEAM -->
+<!-- ========================================= -->
+
+<section class="team section" id="team">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                06
+            </div>
+
+            <div>
+
+                <div class="eyebrow">
+                    ЛЮДИ FORMA
+                </div>
+
+                <h2>
+                    Команда
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="team-grid">
+
+
+            <article class="team-card">
+
+                <div class="team-photo">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80"
+                        alt="Александр Волков"
+                    >
+
+                </div>
+
+                <h3>
+                    Александр Волков
+                </h3>
+
+                <span>
+                    Founder / Lead Architect
+                </span>
+
+            </article>
+
+
+            <article class="team-card">
+
+                <div class="team-photo">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80"
+                        alt="Мария Соколова"
+                    >
+
+                </div>
+
+                <h3>
+                    Мария Соколова
+                </h3>
+
+                <span>
+                    Interior Director
+                </span>
+
+            </article>
+
+
+            <article class="team-card">
+
+                <div class="team-photo">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+                        alt="Данияр Абдуллин"
+                    >
+
+                </div>
+
+                <h3>
+                    Данияр Абдуллин
+                </h3>
+
+                <span>
+                    Project Architect
+                </span>
+
+            </article>
+
+
+            <article class="team-card">
+
+                <div class="team-photo">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=700&q=80"
+                        alt="Елена Морозова"
+                    >
+
+                </div>
+
+                <h3>
+                    Елена Морозова
+                </h3>
+
+                <span>
+                    Senior Architect
+                </span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- CONTACTS -->
+<!-- ========================================= -->
+
+<section class="contacts section" id="contacts">
+
+    <div class="container">
+
+        <div class="contacts-grid">
+
+
+            <div class="contacts-info">
+
+                <div class="section-number">
+                    07
+                </div>
+
+                <div class="eyebrow">
+                    НАЧНЁМ ДИАЛОГ
+                </div>
+
+                <h2>
+                    Есть идея?
+                    <br>
+                    Давайте обсудим.
+                </h2>
+
+                <p>
+                    Расскажите нам о проекте,
+                    а мы свяжемся с вами
+                    и обсудим следующие шаги.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div>
+                        <span>Телефон</span>
+                        <a href="tel:+77001234567">
+                            +7 (700) 123-45-67
+                        </a>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <a href="mailto:hello@forma-architecture.kz">
+                            hello@forma-architecture.kz
+                        </a>
+                    </div>
+
+                    <div>
+                        <span>Офис</span>
+                        <p>
+                            Астана, Казахстан
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="contact-form"
+                id="contactForm"
+            >
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Ваше имя
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Алексей"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Телефон
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+7 (___) ___-__-__"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="you@example.com"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Расскажите о проекте
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Тип объекта, площадь, город..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button button-dark"
+                >
+                    Отправить заявку
+                    →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="logo">
+                <span>FORMA</span>
+                <small>ARCHITECTURE</small>
+            </div>
+
+            <div class="footer-socials">
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    Behance
+                </a>
+
+                <a href="#">
+                    Telegram
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © <span class="current-year"></span>
+                FORMA Architecture
+            </span>
+
+            <span>
+                Astana · Almaty
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ========================================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
